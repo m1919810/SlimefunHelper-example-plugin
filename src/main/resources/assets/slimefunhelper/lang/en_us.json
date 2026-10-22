@@ -1,0 +1,5 @@
+{
+  "example-module.enable": "Enable ExampleModule",
+  "example-module.option": "Example option",
+  "config.index.example-module": "Example Module"
+}

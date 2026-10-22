@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "slimefunhelperpluginexample",
+  "version": "${version}",
+  "name": "SlimefunHelper Plugin Example",
+  "description": "An example SlimefunHelper plugin.",
+  "authors": [
+    "matl114"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "slimefunhelper": [
+      "me.matl114.exampleplugin.ExamplePlugin"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*",
+    "slimefunhelper": "*"
+  }
+}
